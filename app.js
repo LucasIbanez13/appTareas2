@@ -4,7 +4,9 @@ const accion = argv[2];
 
 switch (accion) { 
     case "listar":
-        console.log(` LISTADO DE TAREAS
+        console.log(`
+ ----------------- 
+ LISTADO DE TAREAS
  -----------------`)
         database.listarTareas()
         break;  
