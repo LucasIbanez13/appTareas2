@@ -16,5 +16,5 @@ switch (accion) {
     default:
         console.log("No entiendo lo que quieres hacer");
         break;
-}
+} 
  
